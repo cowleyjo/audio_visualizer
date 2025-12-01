@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<!--File Location: file:///C:/Users/cowle/dev/audio_visualizer/main.html-->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Audio Visualizer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="startBtn" type="button">Start Visualizer</button>
+        <button id="stopBtn" type="button">Stop Visualizer</button>
+        <label for="songs">Choose a song:</label>
+        <select name="songs" id="songs">
+            <option value="ghost">Good for the Ghost</option>
+            <option value="bass">Demo Bass</option>
+            <option value="morning">In the Morning</option>
+        </select>
+
+        <p id="output">Selected: None</p>
+        <canvas id="canvas"></canvas>
+
+        <script src="script.js"></script>
+    </body>
+</html>

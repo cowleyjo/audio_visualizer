@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+button#startBtn {
+    position: relative;
+    z-index: 10;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button#stopBtn {
+    position: relative;
+    z-index: 10;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+select#songs {
+    position: relative; /* or absolute if you want it floating */
+    z-index: 10;        /* above the canvas */
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+p#output {
+    position: relative; /* or absolute if you want it floating */
+    z-index: 20;        /* above the canvas */
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
